@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-container {
+	width: 429.5px;
+	height: 90%;
+	min-height: 794px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.content-container {
+	width: 100%;
+}
+
+.primary-content {
+	padding: 0 50px 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.primary-content > img {
+	width: 100%;
+}
+
+.primary-content input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 5px 0;
+	padding: 10px;
+	font-size: 11px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+}
+
+.primary-content input[type='submit'] {
+	padding: 5px;
+	font-size: 13px;
+	font-weight: 600;
+	color: whitesmoke;
+	background-color: cornflowerblue;
+	border: none;
+	margin: 15px 0 25px;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid lightgrey;
+}
+
+.content-container p {
+	margin: -10px;
+}
+
+.content-container p span {
+	background-color: whitesmoke;
+	padding: 0 15px;
+	color: grey;
+	font-size: 14px;
+}
+
+.facebook {
+	margin: 40px 0;
+	display: block;
+	color: #385185;
+}
+
+.forgot-pw {
+	margin: 15px 0;
+	display: block;
+	color: inherit;
+}
+
+.secondary-content {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.secondary-content a {
+	color: cornflowerblue;
+}
+
+.get-apps {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.get-apps > p {
+	margin-bottom: 15px;
+}
+
+.get-apps button {
+	width: 35%;
+}
+
+.apple-btn,
+.google-btn {
+	height: 50px;
+	background-size: cover;
+	border-radius: 7px;
+}
+
+.apple-btn {
+	background-image: url('https://assets.codepen.io/6060109/IG-app-store-button.png');
+}
+
+.google-btn {
+	background-image: url('https://assets.codepen.io/6060109/IG-Google-Play-Button.png');
+}
+
+footer {
+	margin: 70px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 13px;
+}
+
+footer a {
+	display: block;
+	margin: 3px 7px;
+	color: #777;
+}
+
+.flex > .img-container {
+	display: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 450px) {
+	body {
+		background-color: #f1f1f1;
+	}
+
+	.primary-content {
+		background-color: white;
+		border: 1px solid lightgrey;
+	}
+
+	.secondary-content {
+		background-color: white;
+		border: 1px solid lightgrey;
+		margin: 10px 0;
+		padding: 20px 0;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 876px) {
+	.main-container {
+		width: 859px;
+	}
+
+	.flex {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.flex .img-container {
+		width: 40%;
+		display: block;
+	}
+
+	.content-container {
+		width: 50%;
+	}
+
+	.img-container {
+		background-image: url('/assets/Insta.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
